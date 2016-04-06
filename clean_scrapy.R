@@ -5,7 +5,7 @@ remdr <- remoteDriver()
 remdr$open()  #will open the browser
 remdr$navigate("https://www.linkedin.com/vsearch/p?openAdvancedForm=true&locationType=Y&f_ED=15891&rsid=597444871434112710513&orig=ADVS&page_num=2&pt=people&openFacets=N,G,CC,ED&f_N=F,S,A,O")
 df <- data.frame(MemberNames = "", Titles = "")
-df$MemberNames <- as.character(df$MemberNames)
+df$jojo <- as.character(df$MemberNames)
 df$Titles <- as.character(df$Titles)
 
 # loop fetch
